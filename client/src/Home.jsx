@@ -43,7 +43,7 @@ function Home() {
     context.setStep3(false);
     context.setStep4(false);
 
-    fetch("http://127.0.0.1:5000/api/services")
+    fetch("https://legal-documentation-assistant-tfu7.onrender.com/api/services")
       .then((res) => {
         if (!res.ok) {
           throw Error("could not fetch");

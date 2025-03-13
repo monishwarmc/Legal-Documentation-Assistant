@@ -44,7 +44,7 @@ function Service() {
     context.setStep3(false);
     context.setStep4(false);
     
-    fetch(`http://127.0.0.1:5000/api/forms?service_id=${id}`, {
+    fetch(`https://legal-documentation-assistant-tfu7.onrender.com/api/forms?service_id=${id}`, {
       method: "GET",
       headers: {
         "Content-Type": "application/json",

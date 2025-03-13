@@ -32,7 +32,7 @@ function App() {
             <Route path="/faq" element={<Faq />} />
             <Route path="/login" element={<Login />} />
             <Route path="/signup" element={<Signup />} />
-            {/* <Route path="/chat" element={<Chat />} /> */}
+            <Route path="/chat" element={<Chat />} />
           </Routes>
           <ToastContainer />
         </Router>
