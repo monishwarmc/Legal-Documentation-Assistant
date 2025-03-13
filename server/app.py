@@ -23,7 +23,7 @@ load_dotenv()
 app = Flask(__name__)
 
 # Configure CORS to allow requests from React frontend
-cors = CORS(app, resources={r"/api/*": {"origins": "http://localhost:3000"}})
+cors = CORS(app, resources={r"/api/*": {"origins": "https://legal-documentation-assistant-eight.vercel.app/"}})
 
 # db = MySQLdb.Connect(host="containers-us-west-78.railway.app", port=5480,
 #                      user="root", passwd="F09DY9R7wJEsodY9LB1B", db="railway")
